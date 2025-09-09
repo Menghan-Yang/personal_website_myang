@@ -88,13 +88,13 @@ nav a:hover {
 }
 
 .name {
-  font-size: 2.5em;
+  font-size: 1.8em;
   margin: 0;
   color: #00796b;
 }
 
 .pronunciation {
-  font-size: 0.95em;
+  font-size: 0.90em;
   font-style: italic;
   color: #666;
   margin-top: 0;
@@ -102,7 +102,7 @@ nav a:hover {
 }
 
 .sub-info {
-  font-size: 1.05em;
+  font-size: 1.00em;
   color: #444;
   margin: 0;
 }
@@ -138,6 +138,7 @@ nav a:hover {
   margin: 0;
   text-align: left;
   text-indent: 0;
+  font-size: 18px;
 }
 
 /* ---------- Publications & Project Links ---------- */
