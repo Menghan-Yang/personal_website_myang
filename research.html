@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Research | Menghan Yang</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="research.html">Research</a> |
+    <a href="publications.html">Publications</a> |
+    <a href="teaching_training.html">Teaching & Training</a> |
+    <a href="https://drive.google.com/file/d/1tpuu9jmbNj-9GskrdP3sUAORVMIe_zEc/view?usp=drive_link" target="_blank">CV</a> |
+    <a href="https://drive.google.com/file/d/19VSqUdCx4PqmynaKqFLmxTVOj0SQg67O/view?usp=drive_link" target="_blank">Resume</a>
+  </nav>
+
+  <div class="container">
+    <h2>Research Projects</h2>
+
+    <section>
+      <h3>Shared Experiences, Connected Brains <span style="font-weight:normal;">(2024.5-now)</span></h3>
+      <p>
+        This project investigates how <strong>shared co-viewing experiences</strong> and <strong>conversations</strong>
+        shape the perception of <strong>social connection</strong> in the context of <strong>real-life social interaction</strong>.
+        We first developed <a href="https://hyperstudy.io/" target="_blank"><strong>HyperStudy</strong></a>,
+        a lab-based web-app platform for co-watching and other naturalistic interaction experiments, and then used
+        <strong>fNIRS</strong> and <strong>fMRI hyperscanning</strong> to examine how the <strong>human social brain</strong> responds
+        as pairs of participants watched a “Mole” guessing game and discussed their impressions in real time.
+        Planned analyses focus on <strong>neural coupling</strong>, <strong>conversational alignment</strong>, and <strong>behavioral agreement</strong>,
+        and how these mechanisms interact to support <strong>dyadic social connection</strong>.
+       </p>
+    </section>
+
+    <section>
+      <h3>
+        Denoising in Naturalistic fMRI 
+        <span style="font-weight:normal;">(2023.5–now)</span> 
+        <a href="https://drive.google.com/file/d/1B424PoPVUq6qN4-mQZTeBukOHJHwA1WK/view?usp=drive_link" 
+          target="_blank" 
+          style="font-size: 0.8em; margin-left: 10px;">[Poster]</a>
+      </h3>
+      <p>This project addresses the gap that most fMRI denoising methods were designed for task or resting-state data and are not optimized 
+        for naturalistic paradigms. We began with a <strong>large-scale review</strong> of 1,000+ naturalistic fMRI studies, using clustering analysis to identify 
+        <strong>common preprocessing strategies</strong> and evaluate their impact on data robustness. We then systematically tested denoising steps—including 
+        despiking, motion regression, high-pass filtering, and CSF regression—on a variety of analysis approaches while participants watched a 45-minute episode of <em>Friday Night Lights</em>, from the <a href="https://openneuro.org/datasets/ds003521/versions/2.2.0" target="_blank"><strong>open-source dataset (OpenNeuro ds003521)</strong></a>. 
+        Specifically, we examined their effects on temporal signals, spatiotemporal analyses, functional connectivity, and univariate models. We found that despiking and CSF regression increased temporal inter-subject correlations (ISC), while high-pass filtering disrupted slow neural dynamics in regions such as vmPFC and V1, despite sometimes enhancing functional connectivity. Together, these results revealed <strong>wide variability</strong> in preprocessing practices and demonstrated that <strong>preprocessing decisions are not neutral</strong>—they systematically shape outcomes across multiple naturalistic fMRI analysis methods. We recommend including <strong>despiking</strong>, <strong>motion parameters</strong>, and optionally <strong>CSF regressors</strong>, while avoiding <strong>high-pass filtering</strong> for naturalistic data.
+      </p>
+    </section>
+
+    <section>
+      <h3>Neural Stability Across Repeated Experiences <span style="font-weight:normal;">(2022.9–now)</span> 
+        <a href="https://drive.google.com/file/d/13CDJT19YLdMrMKbZ8HcyUzAJmD3UbyTN/view?usp=drive_link" 
+          target="_blank" 
+          style="font-size: 0.8em; margin-left: 10px;">[Poster]</a>
+        <a href="https://2023.ccneuro.org/view_paperc3fd.html?PaperNum=1671" 
+          target="_blank" 
+          style="font-size: 0.8em; margin-left: 10px;">[Conference Manuscript]</a>
+      </h3>
+      <p>
+        This project investigates the neural stability of human perceptual and interpretive systems when individuals repeatedly experience the same naturalistic stimuli.
+        Using fMRI, we scanned <strong>20 participants</strong> as they watched <strong>24 short videos</strong> across <strong>five sessions</strong>, allowing comparisons of neural similarity within and across individuals.
+        Our findings revealed a clear dissociation: the <strong>visual cortex (V1)</strong> showed strong repetition effects, with neural responses becoming less consistent across repeated exposures, 
+        whereas the <strong>ventromedial prefrontal cortex (vmPFC)</strong> was more sensitive to contextual effects, with neural similarity shaped by the temporal proximity of viewings. 
+        Across brain regions, within-subject correlations were higher than between-subject correlations, yet session-to-session variability underscored the uniqueness of each experience. 
+        These results suggest that while <strong>sensory regions</strong> provide stable, stimulus-driven responses, <strong>higher-order association cortices</strong> flexibly integrate contextual and endogenous factors, highlighting <strong>how the brain transforms repeated events into unique experiences</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h3>Narrative Transmission Across Individuals <span style="font-weight:normal;">(2020–2024)</span>
+      <a href="https://www.biorxiv.org/content/10.1101/2025.03.13.643115v1" 
+          target="_blank" 
+          style="font-size: 0.8em; margin-left: 10px;">[Manuscript]</a>
+      </h3>
+      <p>
+        This study aimed to investigate the neurocognitive mechanisms of narrative transmission, focusing on how 
+        <strong>episodic memory processes shape fidelity or distortion as stories pass between individuals</strong>. 
+        We innovatively applied a social transmission chain paradigm with fMRI, where 58 participants listened to and recalled stories across individuals. 
+        Topic modelling method allowed us to distinguish between <strong>schematic transmission</strong> (preserving narrative structure) and 
+        <strong>paraphrastic transmission</strong> (rephrasing content). Behaviorally, 
+        schematic transmission remained stable and convergent, whereas 
+        paraphrastic transmission produced distortion and divergence. Neural restuls showed, 
+        subsystems of the Default Mode Network (DMN) and hippocampal subregions formed a 
+        <strong>dynamic episodic memory system</strong> that supported transmission.
+        These findings provide the <strong>first neuroimaging evidence of narrative transmission</strong> and highlight how 
+        episodic memory functions as a dynamic system, balancing stability and transformation with implications for 
+        information propagation, misinformation, and cultural continuity.
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Menghan Yang</p>
+  </footer>
+
+</body>
+</html>
